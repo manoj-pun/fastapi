@@ -28,6 +28,6 @@ class PostResponse(PostBase):
 
     id: int
     user_id: int
-    date_posted: str
+    date_posted: datetime
     author: UserResponse
     
